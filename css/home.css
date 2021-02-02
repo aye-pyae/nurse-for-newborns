@@ -1,0 +1,81 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.home-header {
+	background-image: url("../images/sleeping-baby.jpg");	
+	height: 700px;
+	overflow: hidden;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.home-header h1 {
+	width: 50px;
+	line-height: 30vh;
+	font-size: 5.5rem;
+	padding: 4rem;
+	font-weight: normal;
+	font-family: sans-serif;
+}
+
+.home-container {
+ 	width: 80%;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	padding-top: 3rem;
+	align-items: center;	
+	justify-content: center;
+}
+
+.home-container .newborns-item {
+	margin: 50px;
+	padding: 20px;
+	flex-basis: 20%;
+	border-radius: 10px;
+	background-color: #bbffbb;
+	transition: transform .5s ease-in-out;
+}
+
+.home-container .newborns-item a {
+	text-decoration: none;
+}
+
+.home-container .newborns-item:hover {
+	transform: scale(1.1);
+	background-color: white;
+	border: 1px solid #4cbb17;
+}
+
+.home-container .newborns-item .breastfeeding-icon {
+	width: 60px;
+	height: 60px;	
+	padding-left: 4.5rem;
+}
+
+.home-container .newborns-item .icon {
+	color: black;
+	display: flex;
+	justify-content: center;
+}
+
+.home-container .newborns-item .large-icon {
+	font-size: 4em;
+}
+
+.home-container .newborns-item span {
+	display: flex;
+	color: black;
+	font-size: 20px;
+	padding-top: 5px;
+	justify-content: center;
+}
+
+.selected {
+	background-color: #93ff93 !important;
+}
+
+
+

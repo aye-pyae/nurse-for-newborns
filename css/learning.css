@@ -1,0 +1,91 @@
+/*body {
+	background-image: url("../Images/baby-play3.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+}
+
+body ::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, .4);
+}*/
+
+.learn-header {
+	background-image: url("../Images/baby-play5.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 800px;
+	display: flex;
+	align-items: flex-end;
+}
+
+.learn-header h1 {
+	font-size: 70px;
+	font-family: sans-serif;
+	color: #000080;
+	font-weight: bold;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	text-shadow: 2px 0 0 white;
+}
+
+.learn-main {
+	background: linear-gradient(to right,#faf0e6 5%,#ffe4e1 20%,#dda0dd 60%,#40e0d0);
+	padding: 25px ;
+}
+
+.learn-main >p {
+	font-size: 24px;
+	text-indent: 40px;
+	font-weight: bold;
+	line-height: 30px;
+}
+
+.learn-main .content1, .learn-main .content2 {
+	padding: 15px;
+	margin: 30px auto;
+	display: flex;
+}
+
+.learn-main .content1 section, .learn-main .content2 section {
+	flex-basis: 70%;
+}
+
+.learn-main .content1  p, .learn-main .content2 p {
+	text-align: justify;
+	padding-top: 15px;
+	font-size: 17px;
+	line-height: 25px;
+	text-indent: 30px;
+}
+
+.learn-main .content1 section {
+	padding-left: 20px;
+}
+
+.learn-main .content2 section {
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+.learn-main .content1 img,
+.learn-main .content2 img {
+	flex-basis: 25%;	
+}
+
+.learn-main .content1 img {
+	height: 250px;
+	padding-left: 20px;
+}
+
+.learn-main .content2 img {
+	width: 295px;
+	height: 355px;
+}
+

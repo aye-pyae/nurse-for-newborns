@@ -1,0 +1,193 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.health-header {
+	padding: 3rem;
+	font-size: 2.5em;
+	word-spacing: 5px;
+	padding-left: 15px;
+	background-color: #90ee90;
+	text-shadow: 1px 0 0 white;
+}
+
+.health-main .content1 , 
+.health-main .content2, 
+.health-main .content3 {
+	background-color: #bbffbb;
+}
+
+.health-main .content1 h2,
+.health-main .content2 h2,
+.health-main .content3 h2 {
+	font-size: 2em;
+	padding-top: 15px;
+	padding-left: 20px;
+	font-weight: 500px;
+}
+/*<----------------content 1--------------->*/
+.health-main .content1 {
+	padding-top: 1rem;	
+}
+
+.health-main .content1 >p {
+	padding: 2rem;
+	font-size: 1.5em;	
+	text-indent: 30px;
+}
+
+.health-main .content1 .content1-items {
+	display: flex;
+	padding: 2rem;
+}
+
+.health-main .content1 .content1-items .content1-item {
+	padding: 15px;
+	flex-basis: 25%;
+} 
+
+.health-main .content1 .content1-item img {
+	width: 250px;
+	height: 200px;	
+	transition: transform .5s ease-in-out;
+}
+
+.health-main .content1 .content1-item img:hover {
+	border-radius: 15px;
+	transform: scale(1.1);
+}
+
+.health-main .content1 .content1-item p {
+	font-size: 18px;
+	padding-top: 10px;
+	line-height: 30px;
+}
+
+/*<--------------content2----------------->*/
+.health-main .content2 {
+	margin-top: 1.5rem;	
+}
+
+.health-main .content2 h2 {
+	padding-top: 2.5rem;
+	padding-bottom: 1.5rem;
+}
+
+.health-main .content2 .content2-items {
+	padding: 1rem;
+	display: flex;
+}
+
+.health-main .content2 .content2-items .content2-item1 {
+	margin-right: 5px;
+}
+
+.health-main .content2 .content2-items .content2-item2 {
+	margin-left: 5px;
+}
+
+.health-main .content2 .content2-items .content2-item1,
+.health-main .content2 .content2-items .content2-item2 {	
+	padding: 10px;
+}
+
+.health-main .content2 .content2-items .content2-item1 div,
+.health-main .content2 .content2-items .content2-item2 div {
+	/*width: 100%;*/
+	height: 150px;
+} 
+
+.health-main .content2 .content2-items .content2-item1 div p,
+.health-main .content2 .content2-items .content2-item2 div p {
+	line-height: 20px;
+	padding-top: 5px;
+	text-align: justify;
+}
+
+.health-main .content2 .content2-items img {
+	width: 128px;
+	height: 100px;
+	padding-top: 10px;
+	transition: transform .5s ease-in-out;
+}
+
+.health-main .content2 .content2-items img:hover {
+	transform: scale(1.2);
+}
+
+/*-----------------content3------------*/
+.health-main .content3 {
+	margin-top: 1.5rem;
+	padding: 1.5rem;
+}
+
+.health-main .content3 h2 {
+	padding-bottom: 2rem;
+}
+
+.health-main .content3 div {
+	border: 1px solid #c0c0c0;
+	box-shadow: 0 0 4px 1px rgba(0, 0, 0, .4);
+	margin: 15px;
+	background-color: #fff8dc;
+	padding: 1.5rem;
+}
+
+
+.health-main .content3 div h3 {
+	font-size: 22px;
+}
+
+.health-main .content3 div p {
+	font-size: 19px;
+}
+
+.health-main .content3 div li {
+	font-size: 18px;
+}
+
+.health-main .content3 div li strong {	
+	font-size: 20px;
+	font-style: italic;
+}
+
+.health-main .content3 div li h4 {
+	font-size: 20px;
+}
+
+.health-main .content3 div ul li {
+	line-height: 35px;	
+	padding-top: 10px;
+}
+
+.health-main .content3 div ol li {
+	padding: 15px;
+}
+
+.health-main .content3 div ol li p {
+	text-indent: 30px;	
+	padding-top: 10px;
+}
+
+.health-main .content3 .content3-item >p {
+	padding-top: 15px;
+	text-indent: 25px;
+}
+
+.health-main .content3  ul,
+.health-main .content3  ol {
+	padding: 10px 60px;
+}
+
+.health-main .content3 .content3-item ul li {
+	padding: 15px;
+}
+
+.health-main .content3 .content3-item ul li p {
+	text-indent: 30px;
+	text-align: justify;
+}
+
+
+

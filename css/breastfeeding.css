@@ -1,0 +1,320 @@
+.wrapper{
+	margin: auto;
+	background-color: #f5f5f5;
+	display: flex;
+	width: 100%;
+}
+
+/*----------breastfeeding-----------*/
+
+.wrapper .breastfeeding {
+	margin-right: 5px;
+	flex-basis: 40%;
+	flex-grow: 1;
+	background-color: #c1ddd8;
+}
+
+.wrapper .breastfeeding header h1,
+.wrapper .bottle-feeding header h1 {
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 3rem;
+	margin-bottom: 20px;
+	letter-spacing: 2px;
+	text-shadow: 2px 1px 0 white;
+}
+
+.wrapper .breastfeeding img, .wrapper .bottle-feeding img {
+	width: 100%;
+	height: 400px;
+}
+
+.wrapper .breastfeeding .baby-benefits, .wrapper .breastfeeding  .mom-benefits, 
+.wrapper .breastfeeding .challenges,
+.wrapper .breastfeeding  .mom-benefits .mom-emotional-benefits,
+.wrapper .breastfeeding  .mom-benefits .mom-physical-benefits {
+
+	border: 1px solid #e3e3e3;
+	box-shadow: 0 0 5px rgba(0, 0, 0, .4);
+	background-color: white;
+	margin: 15px;
+	padding: 20px;
+}
+
+.wrapper .breastfeeding .baby-benefits h3, .wrapper .breastfeeding .mom-benefits h3, 
+.wrapper .breastfeeding .challenges h3, .wrapper .breastfeeding .breastfeeding-position h3 {
+	word-spacing: 10px;
+	text-align: center ;
+	padding-bottom: 15px;
+}
+
+.wrapper .breastfeeding .baby-benefits p {
+	font-size: 17px;
+	column-count: 2;
+	column-gap: 30px;
+	text-indent: 30px;
+	line-height: 25px;
+}
+
+.wrapper .breastfeeding .mom-benefits h4 {
+	margin-bottom: 10px;
+	font-size: 18px;	
+}
+
+.wrapper .breastfeeding .mom-benefits .mom-emotional-benefits,
+.wrapper .breastfeeding .mom-benefits .mom-physical-benefits {
+	background-color: #f5f5f5;
+}
+
+.wrapper .breastfeeding .mom-benefits .mom-emotional-benefits ul li,
+.wrapper .breastfeeding .mom-benefits .mom-physical-benefits ul li,
+.wrapper .breastfeeding .challenges ul li {
+	font-size: 17px;
+	line-height: 25px;
+}
+
+.wrapper .breastfeeding .challenges ul li {
+	text-align: justify;
+	padding: 7px;
+}
+
+.wrapper .breastfeeding .challenges ul li strong {
+	font-size: 18px;
+}
+
+.wrapper .breastfeeding .breastfeeding-position {
+	padding: 20px;	
+}
+
+.wrapper .breastfeeding .breastfeeding-position h3 {
+	border: 1px solid #e3e3e3;
+	box-shadow: 0 0 5px rgba(0, 0, 0, .4);
+	background-color: white;
+	height: 30px;
+	border-radius: 5px;
+	line-height: 40px;
+}
+
+.wrapper .breastfeeding .breastfeeding-position div {	
+	padding: 25px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.wrapper .breastfeeding .breastfeeding-position div section {
+	flex-basis: 55%;
+	flex-shrink: 1;
+}
+
+.wrapper .breastfeeding .breastfeeding-position div section h4 {
+	padding-bottom: 10px;
+}
+
+.wrapper .breastfeeding .breastfeeding-position div img {
+	flex-basis: 20%;
+	flex-shrink: 5;
+	width: 200px;
+	height: 195px;
+}
+/*.wrapper .breastfeeding .breastfeeding-position .cradle-position img {
+	width: 200px;
+	height: 200px;	
+}
+
+.wrapper .breastfeeding .breastfeeding-position .football-position img {
+	width: 250px;
+	height: 232px;	
+}
+
+.wrapper .breastfeeding .breastfeeding-position .laidback-position img {
+	width: 250px;
+	height: 250px;	
+}
+*/
+/*.wrapper .breastfeeding .breastfeeding-position .sidelying-position img {
+	width: 250px;
+	height: 200px;	
+}*/
+
+.wrapper .breastfeeding .breastfeeding-position section {
+ 	padding: 20px; 
+ 	margin-left: 10px;
+ 	border: 1px solid #e3e3e3;
+ 	box-shadow: 0 0 3px rgba(0, 0, 0, .4);
+ 	margin-bottom: 20px;
+}
+
+.wrapper .breastfeeding .breastfeeding-position .cradle-position section {
+	background-color: #fff0f5;	
+}
+
+.wrapper .breastfeeding .breastfeeding-position .football-position section {
+	background-color: #fcffb1;	
+}
+
+.wrapper .breastfeeding .breastfeeding-position .laidback-position section {
+	background-color: #ffdab9;	
+}
+
+.wrapper .breastfeeding .breastfeeding-position .sidelying-position section {
+	background-color: #f5f5d6;	
+}
+
+/*---------------bottle-feeding -------------*/
+
+.wrapper .bottle-feeding {
+	margin-left: 20px;
+	flex-basis: 40%;
+	flex-grow: 1;
+	background-color: #ffc0cb;
+}
+
+.wrapper .bottle-feeding main >p {
+	padding: 20px;
+	font-size: 22px;
+	line-height: 30px;
+	text-indent: 30px;
+	text-align: justify;	
+	margin: 15px;
+}
+
+.wrapper .bottle-feeding main >p, .wrapper .bottle-feeding .pros, 
+.wrapper .bottle-feeding .cons {
+	border: 1px solid #e3e3e3;
+	box-shadow: 0 0 5px rgba(0, 0, 0, .4);
+	background-color: white;
+}
+
+.wrapper .bottle-feeding .bottle-fig {
+	padding-top: 20px;
+	padding-left: 30px;
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+}
+
+.wrapper .bottle-feeding .bottle-fig figure img {
+	width: 250px;
+	height: 200px;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-bottom: 40px;
+}
+
+.wrapper .bottle-feeding .bottle-fig  figure figcaption {
+	text-align: center;
+	padding-bottom: 5px;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.wrapper .bottle-feeding .pros, .bottle-feeding .cons{
+	margin: 20px;
+	padding: 20px;
+}
+
+.wrapper .bottle-feeding .pros h3,
+.wrapper .bottle-feeding .cons h3{
+	word-spacing: 10px;
+	text-align: center ;
+	padding-bottom: 15px;
+}
+
+.wrapper .bottle-feeding .pros ul li, .wrapper .bottle-feeding .cons ul li {
+	font-size: 17px;
+	line-height: 25px;
+	padding: 10px; 
+	text-align: justify;
+}
+
+.wrapper .bottle-feeding .pros ul li strong,
+.wrapper .bottle-feeding .cons ul li strong {
+	font-size: 20px;
+	font-style: italic;
+}
+
+/*@media screen and (max-width: 586px) {
+
+	.wrapper {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.wrapper .breastfeeding, .wrapper .bottle-feeding {
+		width: 90%;
+	} 
+
+	.wrapper .breastfeeding header h1,
+	.wrapper .bottle-feeding header h1 {
+		text-align: center;
+		font-size: 2rem;
+	}
+
+	.wrapper .breastfeeding img, .wrapper .bottle-feeding img {
+		width: 100%;
+		height: 300px;
+	}
+
+	.wrapper .breastfeeding .baby-benefits p {
+		column-count: 1;
+	}
+
+} */
+
+/*@media screen and (max-width: 820px) {*/
+	/*.wrapper {
+		flex-direction: column;		
+	}
+*/
+	/*.wrapper .breastfeeding, .wrapper .bottle-feeding {*/
+		/*width: 60%;*/
+		/*margin: auto;*/
+	/*} */
+
+	/*.wrapper .breastfeeding .baby-benefits p {
+		font-size: 14px;
+		column-gap: 20px;
+	}*/
+
+/*}*/
+
+@media screen and (max-width: 850px) {
+	.wrapper {
+		flex-direction: column;		
+	}
+
+	.wrapper .breastfeeding, .wrapper .bottle-feeding {
+		width: 80%;
+		margin: auto;
+	}
+
+
+	.wrapper .breastfeeding .baby-benefits p {
+		column-count: 1;
+	}
+
+	.wrapper .bottle-feeding {
+		margin-top: 30px;
+	}
+
+	/*.wrapper .breastfeeding, .wrapper .bottle-feeding {
+		width: 80%;
+		margin: auto;
+	} 
+
+	.wrapper .bottle-feeding {
+		margin-top: 30px;
+	}
+
+	.wrapper .breastfeeding .breastfeeding-position div,
+	.wrapper .bottle-feeding .bottle-fig {
+		padding-left: 80px;
+	}
+
+	 
+}
+
+
+
+
+
